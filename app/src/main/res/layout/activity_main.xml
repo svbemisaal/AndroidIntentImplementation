@@ -16,9 +16,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="33dp"
-        android:layout_marginLeft="33dp"
-        android:layout_marginTop="135dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="67dp"
         android:text="Show Next" />
 
     <Button
@@ -26,17 +26,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="43dp"
-        android:layout_marginTop="362dp"
-        android:layout_marginEnd="37dp"
-        android:text="Send Data To Next Activity"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:layout_marginLeft="43dp"
-        android:layout_marginRight="37dp" />
+        android:layout_centerInParent="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="30dp"
+        android:text="Send Data To Next Activity" />
 
     <EditText
         android:id="@+id/enterUserMessage"
@@ -46,16 +46,16 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="265dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginRight="81dp"
         android:ems="10"
         android:hint="enter your message"
-        android:inputType="textPersonName"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="20dp" />
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/shareToOtherApps"
@@ -65,18 +65,33 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="51dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="292dp"
         android:text="sharetotherapps" />
 
     <Button
         android:id="@+id/recyclerViewbutton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="35dp"
         android:text="Move To Recycler View" />
+
+    <Button
+        android:id="@+id/openNextApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="127dp"
+        android:text="Take Me to Another app" />
 
 </RelativeLayout>
