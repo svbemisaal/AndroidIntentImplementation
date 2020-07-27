@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_favourite.*
+//import kotlinx.android.synthetic.main.activity_favorite.*
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlin.math.log
 
@@ -47,7 +49,16 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent.createChooser(intent,"Share with the app :"))
 
         }
+
+
+        recyclerViewbutton.setOnClickListener {
+
+            val intent =Intent(this,FavouriteActivity::class.java)
+
+            startActivity(intent)
+        }
     }
+
 
 
 }
